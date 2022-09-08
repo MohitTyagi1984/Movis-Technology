@@ -18,16 +18,15 @@ const Logo = ({
       {...props}
       className={classes}
     >
-      <h4 className="m-0">
-        Movish Technology
-        {/* <Link to="/">
+      <h1 className="m-0">
+        <Link to="/">
           <Image
-            src={require('./../../../assets/images/logo.svg')}
+            src={require('./../../../assets/images/MovisLogo.JPG')}
             alt="Open"
-            width={32}
-            height={32} />
-        </Link> */}
-      </h4>
+            width={100}
+            height={100} />
+        </Link>
+      </h1>
     </div>
   );
 }
