@@ -35,37 +35,21 @@ const Header = ({
   return (
     <header
     >
-      {/* <section class="fga-section" style={{ backgroundColor: '#FFFDD0' }}>
+      <section class="fga-section" style={{ backgroundColor: '#002346', position: 'fixed', width: '100%', zIndex: '99999', fontSize:'16px' }}>
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-center padd">
-            <div> <a href="tel:+7503318600" style={{color:'black'}}><span class="icon fa fa-mobile"></span> +91-7503318600</a> </div>
-            </div>
-            <div class="col-md-4 text-center" >
-              Kumar
-            </div>
-
-            <div class="col-md-2 text-center padd1">
-              Tyagi
-            </div>
-          </div>
-        </div>
-      </section> */}
-      <section class="fga-section" style={{ backgroundColor: '#002346', position: 'fixed', width: '100%', zIndex: '99999', float: 'right' }}>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2 col-sm-4" style={{ float: 'left' }}>
-              <Logo
+            <div>
+              <Navbar collapseOnSelect expand="lg" variant="dark">
+              <div style={{float:'left'}}>
+                <Logo
                 alt=""
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
               />
-            </div>
-            <div class="col-md-10 col-sm-8" style={{ float: 'right' }}>
-              <Navbar collapseOnSelect expand="lg" variant="dark" style={{float:'right'}}>
+              </div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Collapse id="responsive-navbar-nav" style={{float:'left'}}>
                   <Nav className="mr-auto">
                     <Nav.Link href="#features">Home</Nav.Link>
                     <Nav.Link href="#pricing">About</Nav.Link>
@@ -98,7 +82,9 @@ const Header = ({
               </Navbar>
             </div>
           </div>
+          
         </div>
+       
       </section>
     </header>
   );

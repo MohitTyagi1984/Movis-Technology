@@ -23,8 +23,8 @@ const Logo = ({
           <Image
             src={require('./../../../assets/images/MovisLogo.JPG')}
             alt="Open"
-            width={100}
-            height={100} />
+            width={80}
+            height={80} />
         </Link>
       </h1>
     </div>
