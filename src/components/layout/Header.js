@@ -51,13 +51,9 @@ const Header = ({
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" style={{float:'left'}}>
                   <Nav className="mr-auto">
-                    <Nav.Link href="#features">Home</Nav.Link>
-                    <Nav.Link href="#pricing">About</Nav.Link>
-                    <Nav.Link href="#pricing">Clients</Nav.Link>
-                    <Nav.Link href="#pricing">Career</Nav.Link>
-                    <Nav.Link href="#pricing">Blog</Nav.Link>
-                    <Nav.Link href="#pricing">Contact Us</Nav.Link>
-                    <NavDropdown title="Our Services" id="collasible-nav-dropdown">
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="About">About</Nav.Link>
+                    <NavDropdown title="Our Services" id="collasible-nav-dropdown" style={{backgroundColor: '#002346', fontSize:'16px'}}>
                       <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">
                         App Development
@@ -71,6 +67,12 @@ const Header = ({
                         ERP Solutions
                       </NavDropdown.Item>
                     </NavDropdown>
+                    {/* <Nav.Link href="#features">Clients</Nav.Link> */}
+                    {/* <Nav.Link href="#features">Career</Nav.Link> */}
+                    <Nav.Link href="#features">Blog</Nav.Link>
+                    <Nav.Link href="#features">Products</Nav.Link>
+                    <Nav.Link href="#features">Pricing</Nav.Link>
+                    <Nav.Link href="#features">Contact Us</Nav.Link>
                   </Nav>
                   {/* <Nav>
           <Nav.Link href="#deets">Our Technology</Nav.Link>

@@ -14,7 +14,7 @@ const defaultProps = {
   ...SectionProps.defaults
 }
 
-const Hero = ({
+const Landing = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -38,7 +38,7 @@ const Hero = ({
   }   
 
   const outerClasses = classNames(
-    'hero section center-content',
+    'landing section center-content',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -47,7 +47,7 @@ const Hero = ({
   );
 
   const innerClasses = classNames(
-    'hero-inner section-inner',
+    'landing-inner section-inner',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
@@ -60,15 +60,15 @@ const Hero = ({
     >
       <div className="container-lg">
         <div className={innerClasses}>
-          <div className="hero-content">
+          <div className="landing-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">Landing template for startups</span>
+              <span className="text-color-primary">landing template for startups</span>
             </h1>
             <div className="container-xs">
            
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="landing-figure reveal-from-bottom" data-reveal-value="20px" data-reveal-delay="800">
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ const Hero = ({
   );
 }
 
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
+Landing.propTypes = propTypes;
+Landing.defaultProps = defaultProps;
 
-export default Hero;
+export default Landing;
