@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import classNames from 'classnames';
 
 
-const About = ({
+const OurProducts = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -62,10 +62,10 @@ const About = ({
           </div>
         </div>
         <div className="container-xs">
-             About Us.....................................................
+             Our Products.....................................................
         </div>
       </section>
     );
   }
 
-  export default About;
+  export default OurProducts;

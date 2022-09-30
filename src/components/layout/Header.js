@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-
+import './../../assets/scss/core/sections/header-sec.scss';
 import Logo from './partials/Logo';
 
 const propTypes = {
@@ -35,7 +35,7 @@ const Header = ({
   return (
     <header
     >
-      <section class="fga-section" style={{ backgroundColor: '#002346', position: 'fixed', width: '100%', zIndex: '99999', fontSize:'16px' }}>
+      <section class="fga-section" style={{ backgroundColor: '#161a1c', position: 'fixed', width: '100%', zIndex: '99999', fontSize:'14px' }}>
         <div class="container">
           <div class="row">
             <div>
@@ -53,26 +53,29 @@ const Header = ({
                   <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="About">About</Nav.Link>
-                    <NavDropdown title="Our Services" id="collasible-nav-dropdown" style={{backgroundColor: '#002346', fontSize:'16px'}}>
-                      <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.2">
-                        App Development
+                    <NavDropdown title="Our Services" id="collasible-nav-dropdown" style={{backgroundColor: '#161a1c', fontSize:'14px'}}>
+                      <NavDropdown.Item href="SoftwareDevelopment">Software and Application Development</NavDropdown.Item>
+                      <NavDropdown.Item href="WebsiteDesign">
+                        Website Design and Development
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.3">Digital Marketing</NavDropdown.Item>
+                      <NavDropdown.Item href="Seo">SEO and Digital Marketing</NavDropdown.Item>
                       {/* <NavDropdown.Divider /> */}
-                      <NavDropdown.Item href="#action/3.4">
+                      <NavDropdown.Item href="EcommerceDevelopment">
                         E-Commerce Development
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.4">
+                      <NavDropdown.Item href="ERPSolutions">
                         ERP Solutions
+                      </NavDropdown.Item>
+                      <NavDropdown.Item href="OurProducts">
+                        Product Maintenance and support
                       </NavDropdown.Item>
                     </NavDropdown>
                     {/* <Nav.Link href="#features">Clients</Nav.Link> */}
                     {/* <Nav.Link href="#features">Career</Nav.Link> */}
-                    <Nav.Link href="#features">Blog</Nav.Link>
-                    <Nav.Link href="#features">Products</Nav.Link>
-                    <Nav.Link href="#features">Pricing</Nav.Link>
-                    <Nav.Link href="#features">Contact Us</Nav.Link>
+                    {/* <Nav.Link href="#features">Blog</Nav.Link> */}
+                    <Nav.Link href="OurProducts">Products</Nav.Link>
+                    <Nav.Link href="Pricing">Pricing</Nav.Link>
+                    <Nav.Link href="ContactUs">Contact Us</Nav.Link>
                   </Nav>
                   {/* <Nav>
           <Nav.Link href="#deets">Our Technology</Nav.Link>
@@ -96,3 +99,4 @@ Header.propTypes = propTypes;
 Header.defaultProps = defaultProps;
 
 export default Header;
+

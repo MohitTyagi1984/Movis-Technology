@@ -10,6 +10,14 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import About from './views/About';
+import ContactUs from './views/ContactUs';
+import EcommerceDevelopment from './views/EcommerceDevelopment';
+import ERPSolutions from './views/ERPSolutions';
+import OurProducts from './views/OurProducts';
+import Pricing from './views/Pricing';
+import Seo from './views/Seo';
+import SoftwareDevelopment from './views/SoftwareDevelopment';
+import WebsiteDesign from './views/WebsiteDesign';
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
@@ -38,6 +46,14 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/about" component={About} layout={LayoutDefault} />
+          <AppRoute exact path="/contactus" component={ContactUs} layout={LayoutDefault} />
+          <AppRoute exact path="/ecommerce" component={EcommerceDevelopment} layout={LayoutDefault} />
+          <AppRoute exact path="/erpsolutions" component={ERPSolutions} layout={LayoutDefault} />
+          <AppRoute exact path="/ourproducts" component={OurProducts} layout={LayoutDefault} />
+          <AppRoute exact path="/pricing" component={Pricing} layout={LayoutDefault} />
+          <AppRoute exact path="/seo" component={Seo} layout={LayoutDefault} />
+          <AppRoute exact path="/softwaredevelopment" component={SoftwareDevelopment} layout={LayoutDefault} />
+          <AppRoute exact path="/websitedesign" component={WebsiteDesign} layout={LayoutDefault} />
         </Switch>
       )} />
   );

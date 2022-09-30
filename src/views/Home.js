@@ -10,9 +10,9 @@ const Home = () => {
 
   return (
     <>
-      <Landing className="illustration-section-01"/>
+      <Landing className=""/>
       <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <FeaturesSplit invertMobile topDivider imageFill className="" />
       <Testimonial topDivider />
       <Cta split />
     </>

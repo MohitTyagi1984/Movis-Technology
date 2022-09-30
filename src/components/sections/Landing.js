@@ -54,15 +54,20 @@ const Landing = ({
 
   return (
     <section
-    style={{marginTop: '3rem'}}
+    style={{marginTop: '4rem'}}
       {...props}
       className={outerClasses}
     >
-      <div className="container-lg">
+      <div className="container-lg" style={{
+      backgroundImage: `url(${require('./../../assets/images/landing.jpg')})`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+    }}>
         <div className={innerClasses}>
           <div className="landing-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">landing template for startups</span>
+              <span className="" style={{color: '#fff'}}>Web Design and Development</span>
             </h1>
             <div className="container-xs">
            
