@@ -54,16 +54,39 @@ const EcommerceDevelopment = ({
           <div className={innerClasses}>
             <div className="landing-content">
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                <span className="" style={{color: '#fff'}}>Web Design and Development</span>
+                <span className="" style={{color: '#fff'}}>ERP Solutions</span>
               </h1>
             </div>
             <div className="landing-figure reveal-from-bottom" data-reveal-value="20px" data-reveal-delay="800">
             </div>
           </div>
         </div>
-        <div className="container-xs">
-             ERP Solutions.....................................................
+        <div className="container-lg">
+        <div className="split-item">
+          <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+            <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+            </div>
+            <h6 className="mt-0 mb-6" style={{ color: 'black' }}>
+            
+            </h6>
+            <p className="" style={{ textAlign: 'left' }}>
+            A new-age software created by top industry experts, We provide the ERP for manufacturing SMEs that wish to scale and optimise their ventures. As an end-to-end manufacturing management software, It automates all key business processes from engineering to production and from quality control to sales.
+            </p>
+          </div>
+          {/* <div className={
+            classNames(
+              'split-item-image center-content-mobile reveal-from-bottom',
+              'split-item-image-fill'
+            )}
+            data-reveal-container=".split-item">
+            <image
+              src={require('./../assets/images/aboutus.jpg')}
+              alt="Features split 01"
+              width={528}
+              height={396} />
+          </div> */}
         </div>
+      </div>
       </section>
     );
   }

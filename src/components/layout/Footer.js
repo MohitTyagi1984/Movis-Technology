@@ -39,11 +39,11 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
-          <div className="footer-top space-between text-xxs">
+          <div className="footer-top space-between text-xxs" style={{float:'left'}}>
             {/* <Logo /> */}
             <FooterSocial />
           </div>
-          <div className="footer-bottom space-between text-xxs invert-order-desktop">
+          <div className="footer-bottom space-between text-xxs invert-order-desktop" style={{float:'right'}}>
             <FooterNav />
           </div>
         </div>

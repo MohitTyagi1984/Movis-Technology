@@ -60,7 +60,7 @@ const Header = ({
                       </NavDropdown.Item>
                       <NavDropdown.Item href="Seo">SEO and Digital Marketing</NavDropdown.Item>
                       {/* <NavDropdown.Divider /> */}
-                      <NavDropdown.Item href="EcommerceDevelopment">
+                      <NavDropdown.Item href="ecommerce">
                         E-Commerce Development
                       </NavDropdown.Item>
                       <NavDropdown.Item href="ERPSolutions">
@@ -74,7 +74,7 @@ const Header = ({
                     {/* <Nav.Link href="#features">Career</Nav.Link> */}
                     {/* <Nav.Link href="#features">Blog</Nav.Link> */}
                     <Nav.Link href="OurProducts">Products</Nav.Link>
-                    <Nav.Link href="Pricing">Pricing</Nav.Link>
+                    {/* <Nav.Link href="Pricing">Pricing</Nav.Link> */}
                     <Nav.Link href="ContactUs">Contact Us</Nav.Link>
                   </Nav>
                   {/* <Nav>

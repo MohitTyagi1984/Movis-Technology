@@ -13,7 +13,7 @@ const Home = () => {
       <Landing className=""/>
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="" />
-      <Testimonial topDivider />
+      {/* <Testimonial topDivider /> */}
       <Cta split />
     </>
   );

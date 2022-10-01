@@ -76,7 +76,7 @@ const FeaturesSplit = ({
                 <p className="m-0">
                 Movis successfully managed and implemented a wide variety of projects to cater all kind of business needs ranging from the showcase requirements like Website Designing and Development, Customized Software Development, SEO & Online Marketing, E-Commerce, Corporate Training, Product Maintenance and Support, Networking (LAN & Wi-Fi Installation) up to the Data Entry, no job is smaller to us. We are capable of implementing complete global e-business solutions that extend from front office customer relationship management to back office operational applications to platform infrastructure.
 
-                As more and more companies are transforming themselves into businesses, Business Intelligence solutions provide a cost-effective way to expand market opportunities, improve business process efficiency, and attract and retain customers through our range of products and Applications that are ready to run. At STM Developments, we continue to pride ourselves on our ability to provide established expertise on ERP, E-Commerce, College ERP, explicit software needs for Libraries and Hospitality groups. Spanning all core business areas of Billing, Accounting, Inventory Management and Trading software for Manufacturing, Construction and Service Industries.
+                As more and more companies are transforming themselves into businesses, Business Intelligence solutions provide a cost-effective way to expand market opportunities, improve business process efficiency, and attract and retain customers through our range of products and Applications that are ready to run. Movis Technology continue to pride ourselves on our ability to provide established expertise on ERP, E-Commerce, College ERP, explicit software needs for Libraries and Hospitality groups. Spanning all core business areas of Billing, Accounting, Inventory Management and Trading software for Manufacturing, Construction and Service Industries.
                   </p>
               </div>
               <div className={
@@ -93,7 +93,7 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            <div className="split-item">
+            {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Lightning fast workflow
@@ -143,7 +143,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
